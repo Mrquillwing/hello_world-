@@ -1,26 +1,29 @@
-Q_PHYSICS Holly Artistic. 
+Q_PHYSICS 
 
-A modular physics simulation engine built to explore how the universe works.
+A Modular Physics Simulation Engine
+
+Computational physics · Numerical methods · Physical systems
+
+Overview 
+
+Q_PHYSICS is a project focused on developing a modular physics simulation engine for modelling physical systems through numerical computation. The aim is to build a reliable foundation that can support everything from classical mechanics to more advanced simulations.
+
+Core Systems Mechanics — Forces, motion, and rigid-body dynamics. Gravity — Gravitational interactions and N-body systems. Particles — Particle dynamics and interactions. Fluid Dynamics — Numerical modelling of fluid behaviour. Numerical Solvers — Methods for solving physical equations. Visualization — Interactive simulation and data rendering. Technology 
+
+Python · NumPy · SciPy · C++ · Three.js
+
+Development 
+
+The project will be developed incrementally, beginning with mathematical utilities and basic mechanics before expanding into more complex physical models.
+
+Numerical accuracy, modular architecture, and reproducible testing are the primary development priorities.
+
+Status 
+
+Early development. The systems listed above describe the intended scope; implementation is ongoing.
+
+Q_PHYSICS · Open-source development
 
 
-About 
-
-Q_PHYSICS is an independent project focused on building a modular physics simulation engine. The goal is to bring different physical systems together, from classical mechanics and gravity to particle interactions and fluid dynamics.
-
-I'm building it step by step, starting with the mathematics and working towards more complex simulations.
-
-Core Systems Mechanics — Forces, motion, and rigid-body dynamics. Gravity — Gravitational interactions and N-body simulations. Particles — Particle systems and physical interactions. Fluids — Computational fluid simulation. Numerical Solvers — Methods for solving physical equations. Visualization — Interactive 2D and 3D simulations. Technology 
-
-Python · NumPy · SciPy · Three.js · C++
-
-Roadmap [ ] Mathematical foundation [ ] Motion and force simulation [ ] Gravitational systems [ ] Collision detection [ ] Particle dynamics [ ] Interactive visualization [ ] Performance optimization Philosophy 
-
-Good simulations begin with good mathematics. My priority is to understand the models, test the results, and build something reliable rather than rush towards complexity.
-
-Project Status 
-
-Early development. The systems listed above represent planned features; implementation will progress gradually.
-
-Q_PHYSICS · First repo.
 
 
