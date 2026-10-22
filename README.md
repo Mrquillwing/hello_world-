@@ -4,17 +4,23 @@ Modular Physics Simulation Engine
 
 COMPUTATIONAL PHYSICS · NUMERICAL METHODS · SIMULATION
 
-◈ Overview 
+Overview 
 
 Q_PHYSICS is a project focused on developing a modular physics simulation engine for modelling physical systems through numerical computation. The goal is to establish a reliable foundation for classical mechanics, gravitational systems, particle dynamics, and advanced physical simulation, and this is hand made.
 
 ⬡ Core  Q-MECHANICS — Forces, motion, and rigid-body dynamics.
- Q-GRAVITY — Gravitational interactions and N-body systems. Q-PARTICLES — Particle dynamics and interactions. Q-FLUID — Numerical modelling of fluid behaviour. 
-Q-SOLVER — Numerical methods for solving physical equations. Q-VISUAL — Simulation visualization and data rendering.
- 
-⌘ Technology 
 
-PYTHON → Core dev.
+
+    Q-GRAVITY — Gravitational interactions and N-body systems. 
+    Q-PARTICLES — Particle dynamics and interactions.   
+    Q-FLUID — Numerical modelling of fluid behaviour. 
+    Q-SOLVER — Numerical methods for solving physical equations.    
+    Q-VISUAL — Simulation visualization and data rendering.
+ 
+
+ Technology 
+
+             PYTHON → Core dev.
 NUMPY → Numerical computation 
 SCIPY → Scientific computing 
 C++ →  Performance optimization
