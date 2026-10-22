@@ -1,28 +1,26 @@
 Q_PHYSICS 
 
-A Modular Physics Simulation Engine
+Modular Physics Simulation Engine
 
-Computational physics · Numerical methods · Physical systems
+COMPUTATIONAL PHYSICS · NUMERICAL METHODS · SIMULATION
 
-Overview 
+◈ Overview 
 
-Q_PHYSICS is a project focused on developing a modular physics simulation engine for modelling physical systems through numerical computation. The aim is to build a reliable foundation that can support everything from classical mechanics to more advanced simulations.
+Q_PHYSICS is a project focused on developing a modular physics simulation engine for modelling physical systems through numerical computation. The goal is to establish a reliable foundation for classical mechanics, gravitational systems, particle dynamics, and advanced physical simulations.
 
-Core Systems Mechanics — Forces, motion, and rigid-body dynamics. Gravity — Gravitational interactions and N-body systems. Particles — Particle dynamics and interactions. Fluid Dynamics — Numerical modelling of fluid behaviour. Numerical Solvers — Methods for solving physical equations. Visualization — Interactive simulation and data rendering. Technology 
+⬡ Core Systems Q-MECHANICS — Forces, motion, and rigid-body dynamics. Q-GRAVITY — Gravitational interactions and N-body systems. Q-PARTICLES — Particle dynamics and interactions. Q-FLUID — Numerical modelling of fluid behaviour. Q-SOLVER — Numerical methods for solving physical equations. Q-VISUAL — Simulation visualization and data rendering. ⌘ Technology PYTHON → Core development NUMPY → Numerical computation SCIPY → Scientific computing C++ → Potential performance optimization THREE.JS → 3D visualization ⬢ Architecture 
 
-Python · NumPy · SciPy · C++ · Three.js
+The engine is intended to use a modular architecture, keeping physical models, numerical solvers, and visualization components separate.
 
-Development 
+Q_PHYSICS/ ├── src/ │ └── qphysics/ │ ├── math/ │ ├── mechanics/ │ ├── gravity/ │ ├── particles/ │ ├── fluids/ │ ├── solvers/ │ └── visualization/ ├── examples/ ├── tests/ └── README.md △ Development Roadmap [ ] Mathematical foundation [ ] Basic mechanics and forces [ ] Gravitational simulation [ ] Collision detection [ ] Particle dynamics [ ] Advanced physical models [ ] Interactive visualization [ ] Performance optimization ◉ Project Status 
 
-The project will be developed incrementally, beginning with mathematical utilities and basic mechanics before expanding into more complex physical models.
+Early development.
 
-Numerical accuracy, modular architecture, and reproducible testing are the primary development priorities.
+The listed systems represent the intended direction of the project. Features will be added and tested incrementally.
 
-Status 
+Q_PHYSICS / COMPUTATIONAL PHYSICS
 
-Early development. The systems listed above describe the intended scope; implementation is ongoing.
 
-Q_PHYSICS · Open-source development
 
 
 
