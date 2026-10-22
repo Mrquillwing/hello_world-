@@ -71,8 +71,7 @@ Q_PHYSICS / COMPUTATIONAL PHYSICS
 
                   This is not ai mfs
 
-
-
-
-
+         phir v koi akke kahe dega ye to ai hai
+                         T^T
+              
 
